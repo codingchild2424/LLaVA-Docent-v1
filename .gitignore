@@ -1,5 +1,6 @@
 datasets/
 .env
+serve_images/
 
 # Python
 __pycache__
