@@ -1,4 +1,4 @@
-# 🌋 LLaVA-Docent: Large Language and Vision Assistant for Art Appreciation Education
+# 👨‍🎨 LLaVA-Docent: Large Language and Vision Assistant for Art Appreciation Education
 
 ## Install
 - Same as LLaVA
