@@ -3,6 +3,9 @@
 ## Install
 Same as LLaVA
 
+## Training
+Same as LLaVA, use .sh files in scrips.
+
 
 ## How to start-demo?
 Enter the commands below in the three terminals in order
