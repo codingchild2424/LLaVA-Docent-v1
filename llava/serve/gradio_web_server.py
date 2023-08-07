@@ -288,8 +288,8 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
         fout.write(json.dumps(data) + "\n")
 
 title_markdown = ("""
-# 🌋 LLaVA: Large Language and Vision Assistant
-[[Project Page]](https://llava-vl.github.io) [[Paper]](https://arxiv.org/abs/2304.08485) [[Code]](https://github.com/haotian-liu/LLaVA) [[Model]](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)
+# 👨‍🎨 LLaVA-Docent: Large Language and Vision Assistant for Art Appreciation Education
+[[Code]](https://github.com/codingchild2424/LLaVA-Docent-v1) [[Model]](https://huggingface.co/LLaVA-Docent/llava-docent-vicuna-13b-v1-5-v1)
 """)
 
 tos_markdown = ("""
@@ -333,8 +333,8 @@ def build_demo(embed_mode):
 
                 cur_dir = os.path.dirname(os.path.abspath(__file__))
                 gr.Examples(examples=[
-                    [f"{cur_dir}/examples/extreme_ironing.jpg", "What is unusual about this image?"],
-                    [f"{cur_dir}/examples/waterview.jpg", "What are the things I should be cautious about when I visit here?"],
+                    [f"{cur_dir}/examples/watercolour.jpg", "What is unusual about this image?"],
+                    [f"{cur_dir}/examples/deer.png", "What are the things I should be cautious about when I visit here?"],
                 ], inputs=[imagebox, textbox])
 
                 with gr.Accordion("Parameters", open=False, visible=False) as parameter_row:
